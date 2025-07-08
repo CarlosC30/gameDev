@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>GamerDevClub</title>
+</head>
+
+<body>
+    <div class="caixa">
+        <div class="control-gamer">
+            <img src="./assets/control.jpg" alt="controle">
+        </div>
+
+        <div class="caixa-texto">
+            <h1>O que voçe encontra aqui</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde praesentium officia laboriosam modi
+                aliquid
+                nemo quia omnis! Illum dignissimos esse accusantium dolorum adipisci quasi quaerat, rerum, neque sunt
+                assumenda laborum.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus repellat quibusdam tempora!
+                Laudantium
+                voluptates fuga explicabo, voluptas quos pariatur nulla saepe exercitationem placeat totam eligendi
+                laboriosam neque ut eum dignissimos.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur id, vel dolores necessitatibus dolorum
+                saepe porro rem iusto inventore veniam aliquam molestiae accusantium ad consequatur ratione eos, iure
+                sed
+                nobis?</p>
+
+        </div>
+        <div>
+            <button onclick="abrir()" class="button-contact">Entre em contato</button>
+        </div>
+    </div>
+    <div class="caixa-form">
+       <form action="https://formsubmit.co/ca.borges357@gmail.com" method="POST">
+    <input required placeholder="Nome" type="text" name="name">
+    <input required placeholder="Email" type="email" name="email">
+    <textarea required placeholder="Sua dúvida aqui" class="duvidas" name="question" rows="4"></textarea>
+    <button type="submit">Enviar</button>
+    <button type="button" onclick="fechar()" class="voltar">Voltar</button>
+</form>
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
