@@ -14,5 +14,5 @@
 
 - HTML
 - CSS
-- JavaScript (opcional, se houver interatividade)
+- JavaScript
 - FormSubmit (para envio do formulário)
